@@ -43,6 +43,7 @@ export default function Login() {
                 method="post" 
                 className="login-form" 
                 replace
+                autocomplete="off"
             >
                 <input
                     name="email"
